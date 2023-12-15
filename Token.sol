@@ -8,6 +8,8 @@ contract ERC20 {
     string public name = "Solidity by Example";
     string public symbol = "SOLBYEX";
     uint8 public decimals = 18;
+    event Transfer(address indexed from, address indexed to, uint value);
+    event Approval(address indexed owner, address indexed spender, uint value);
 
     function transfer(address recipient, uint amount) external returns (bool) {
         balanceOf[msg.sender] -= amount;
