@@ -1,1 +1,1 @@
-# lokiCode-Tutorial
+# lokiCode-Workshop 
